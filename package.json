@@ -1,0 +1,35 @@
+{
+  "name": "peggy-string-concat",
+  "version": "1.0.0",
+  "description": "Throw-away package for testing peggy imports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "peggy index.peggy npm:peggy-string/index.peggy",
+    "prepare": "npm run compile"
+  },
+  "files": [
+    "index.peggy",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frostburn/peggy-string-concat.git"
+  },
+  "keywords": [
+    "Peggy",
+    "Grammar",
+    "String",
+    "Concatenation"
+  ],
+  "author": "Lumi Pakkanen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frostburn/peggy-string-concat/issues"
+  },
+  "homepage": "https://github.com/frostburn/peggy-string-concat#readme",
+  "devDependencies": {
+    "peggy": "github:hildjj/peggy#multi-file",
+    "peggy-string": "github:frostburn/peggy-string"
+  }
+}
