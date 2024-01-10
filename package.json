@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "peggy index.peggy npm:peggy-string/index.peggy",
+    "compile": "peggy index.peggy",
     "prepare": "npm run compile"
   },
   "files": [
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/frostburn/peggy-string-concat#readme",
   "devDependencies": {
-    "peggy": "github:hildjj/peggy#multi-file",
+    "peggy": "github:hildjj/peggy#library-mode",
     "peggy-string": "github:frostburn/peggy-string"
   }
 }

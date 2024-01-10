@@ -1,3 +1,5 @@
+import String from 'peggy-string'
+
 StringConcatenation
   = left: StringLiteral operator: '++' right: StringLiteral {
     return {
