@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/frostburn/peggy-string-concat#readme",
   "devDependencies": {
-    "peggy": "github:hildjj/peggy#library-mode",
+    "peggy": "^4.0.0",
     "peggy-string": "github:frostburn/peggy-string"
   }
 }
